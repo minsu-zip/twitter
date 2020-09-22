@@ -79,7 +79,7 @@ const TweetFactory = ({ userObj }) => {
         {/* <input type="file" accept="image/*" onChange={onFileChange} /> */}
       </div>
 
-      <label htmlfor="attach-file" className="factoryInput__label">
+      <label htmlFor="attach-file" className="factoryInput__label">
         <span>Add photos</span>
         <FontAwesomeIcon icon={faPlus} />
       </label>
