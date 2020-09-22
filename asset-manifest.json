@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/twitter/static/css/main.98f308c8.chunk.css",
-    "main.js": "/twitter/static/js/main.a3f6368e.chunk.js",
-    "main.js.map": "/twitter/static/js/main.a3f6368e.chunk.js.map",
+    "main.js": "/twitter/static/js/main.3f99e8b9.chunk.js",
+    "main.js.map": "/twitter/static/js/main.3f99e8b9.chunk.js.map",
     "runtime-main.js": "/twitter/static/js/runtime-main.39cb9049.js",
     "runtime-main.js.map": "/twitter/static/js/runtime-main.39cb9049.js.map",
     "static/js/2.4a115058.chunk.js": "/twitter/static/js/2.4a115058.chunk.js",
     "static/js/2.4a115058.chunk.js.map": "/twitter/static/js/2.4a115058.chunk.js.map",
     "index.html": "/twitter/index.html",
-    "precache-manifest.62a825babb0127fb0f01122d3c3668e4.js": "/twitter/precache-manifest.62a825babb0127fb0f01122d3c3668e4.js",
+    "precache-manifest.05261a332d140b792d51fdfa99044ade.js": "/twitter/precache-manifest.05261a332d140b792d51fdfa99044ade.js",
     "service-worker.js": "/twitter/service-worker.js",
     "static/css/main.98f308c8.chunk.css.map": "/twitter/static/css/main.98f308c8.chunk.css.map",
     "static/js/2.4a115058.chunk.js.LICENSE.txt": "/twitter/static/js/2.4a115058.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.39cb9049.js",
     "static/js/2.4a115058.chunk.js",
     "static/css/main.98f308c8.chunk.css",
-    "static/js/main.a3f6368e.chunk.js"
+    "static/js/main.3f99e8b9.chunk.js"
   ]
 }
