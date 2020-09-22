@@ -3,11 +3,8 @@ import TweetFactory from "components/TweetFactory";
 import { dbService } from "fbase";
 import React, { useEffect, useState } from "react";
 
-
 const Home = ({ userObj }) => {
-  const [tweet, setTweet] = useState("");
   const [tweets, setTweets] = useState([]);
-  const [attachment, setAttachment] = useState("");
 
   //db에 데이터 가져오는 첫번째 방법
   //새로고침해야함
@@ -39,7 +36,6 @@ const Home = ({ userObj }) => {
       setTweets(nweetArray);
     });
   }, []);
-
 
   return (
     <div className="container">

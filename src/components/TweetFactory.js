@@ -14,11 +14,12 @@ const TweetFactory = ({ userObj }) => {
   const [attachment, setAttachment] = useState("");
 
   const onSubmit = async (e) => {
+    e.preventDefault();
+
     if (tweet === "") {
       return;
     }
 
-    e.preventDefault();
     let attachmentUrl = "";
     if (attachment !== "") {
       //파일 이미지를 스토리지에 등록하고 해당 url을 리턴받음
@@ -78,7 +79,7 @@ const TweetFactory = ({ userObj }) => {
         {/* <input type="file" accept="image/*" onChange={onFileChange} /> */}
       </div>
 
-      <label for="attach-file" className="factoryInput__label">
+      <label htmlfor="attach-file" className="factoryInput__label">
         <span>Add photos</span>
         <FontAwesomeIcon icon={faPlus} />
       </label>

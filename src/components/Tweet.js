@@ -39,7 +39,6 @@ const Tweet = ({ tweetObj, isOwner }) => {
       {editing ? (
         <>
           <form onSubmit={onSubmit} className="container nweetEdit">
-
             <input
               type="text"
               placeholder="Edit your nweet"
@@ -50,7 +49,7 @@ const Tweet = ({ tweetObj, isOwner }) => {
               className="formInput"
             />
 
-<input type="submit" value="Update Nweet" className="formBtn" />
+            <input type="submit" value="Update Nweet" className="formBtn" />
           </form>
 
           <span onClick={toggleEditing} className="formBtn cancelBtn">
@@ -61,18 +60,18 @@ const Tweet = ({ tweetObj, isOwner }) => {
         <>
           <h4>{newTweet}</h4>
 
-{tweetObj.attachmentUrl && <img src={tweetObj.attachmentUrl} />}
+          {tweetObj.attachmentUrl && <img src={tweetObj.attachmentUrl} />}
 
           {isOwner && (
             <>
-               <div class="nweet__actions">
-              <span onClick={onDeleteClick}>
-                <FontAwesomeIcon icon={faTrash} />
-              </span>
-              <span onClick={toggleEditing}>
-                <FontAwesomeIcon icon={faPencilAlt} />
-              </span>
-            </div>
+              <div class="nweet__actions">
+                <span onClick={onDeleteClick}>
+                  <FontAwesomeIcon icon={faTrash} />
+                </span>
+                <span onClick={toggleEditing}>
+                  <FontAwesomeIcon icon={faPencilAlt} />
+                </span>
+              </div>
             </>
           )}
         </>
